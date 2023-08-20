@@ -1,0 +1,56 @@
+body {
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.off {
+  display: none;
+}
+
+.time {
+  margin-top: 48px;
+}
+.time span {
+  font-size: 48px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 700;
+}
+.todo {
+  margin-top: 48px;
+  width: 100%;
+}
+#todo-input {
+  width: 100%;
+  max-width: 50%;
+  padding: 24px 48px;
+  border-radius: 24px;
+  outline: none;
+  border: 0;
+  font-size: 24px;
+}
+#todo-input::placeholder {
+  font-size: 18px;
+}
+
+.deleteBtn {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: 12px;
+  color: red;
+  border: none;
+  font-size: 12px;
+}
+.todoItem {
+  color: #fff;
+  margin: 20px 0;
+}
+.weather {
+  color: #fff;
+  margin-top: 24px;
+  font-size: 24px;
+}
